@@ -33,20 +33,13 @@
     // internet connectivity.
     .dependencies = .{
         .zigx_prototype = .{
-            .url = "git+https://github.com/nurulhudaapon/zigx-prototype#39a1be4c25d1832cd325e2f37d6a35ec18757ef8",
-            .hash = "zigx_prototype-0.0.0-MCGw0nqVAQAXKyjdECrJ890LF0xTsHnwcGWLdYoDt05a",
-        },
-        .httpz = .{
-            .url = "git+https://github.com/karlseguin/http.zig?ref=master#9c918865554c82648cd5eeff52b373d291625edc",
-            .hash = "httpz-0.0.0-PNVzrBXyBgBR5yTLW6dUTWtXSahqFsLdEwFI3tVy5J72",
+            .url = "git+https://github.com/nurulhudaapon/zigx-prototype#19febcc83d2e7207d8f6900490b86a29b4e19f13",
+            .hash = "zigx_prototype-0.0.0-MCGw0o99AQDnAuTLmHNPLU95EjoxegnuURmuK3vfkd7h",
         },
     },
     .paths = .{
         "build.zig",
         "build.zig.zon",
         "src",
-        // For example...
-        //"LICENSE",
-        //"README.md",
     },
 }

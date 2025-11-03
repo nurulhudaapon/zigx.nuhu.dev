@@ -20,4 +20,8 @@ pub const routes = [_]zx.App.Meta.Route{
     },
 };
 
+pub const meta = zx.App.Meta{
+    .routes = &routes,
+};
+
 const zx = @import("zx");
