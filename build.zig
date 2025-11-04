@@ -12,7 +12,7 @@ pub fn build(b: *std.Build) void {
 
     // const zx_dep = b.dependency("zx", .{ .target = target, .optimize = optimize });
     zx.setup(b, .{
-        .name = "www_zigx_nuhu_dev",
+        .name = "zx_site",
         .root_module = b.createModule(.{
             .root_source_file = b.path("site/main.zig"),
             .target = target,

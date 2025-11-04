@@ -1,5 +1,6 @@
+name: "zx"
 services:
-  zigx_nuhu_dev:
+  site:
     build:
       context: .
       dockerfile: Dockerfile

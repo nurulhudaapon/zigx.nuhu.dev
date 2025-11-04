@@ -15,7 +15,7 @@ RUN /opt/zig/zig build -Doptimize=ReleaseFast -Dcpu=baseline
 
 # Run the app
 FROM alpine:3.22.2
-COPY --from=build /build/zig-out/bin/www_zigx_nuhu_dev /server
+COPY --from=build /build/zig-out/bin/zx_site /zx_site
 
-ENTRYPOINT ["/server"]
+ENTRYPOINT ["/zx_site"]
 
