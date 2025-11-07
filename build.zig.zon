@@ -2,11 +2,11 @@
     .name = .zigx_nuhu_dev,
     .version = "0.0.0",
     .fingerprint = 0xd8465aa71e61ec71,
-    .minimum_zig_version = "0.15.2",
+    .minimum_zig_version = "0.15.1",
     .dependencies = .{
         .zx = .{
-            .url = "git+https://github.com/nurulhudaapon/zx#87a146eff426cd852d807e5db1d9da129b1dcb5f",
-            .hash = "zx-0.0.1-dev.23-8okzKsAxAgDVAXU_ldfsx5cOgf25_vBg4IrWWkZE9Hbf",
+            .url = "git+https://github.com/nurulhudaapon/zx#126651c4364140938bcae83847da04d02d13d669",
+            .hash = "zx-0.0.1-dev.30-8okzKhaQAgABxTPeC1Q-oPmBBRLLZ4yNUukBFPdFTDWl",
         },
     },
     .paths = .{

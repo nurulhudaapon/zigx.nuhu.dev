@@ -1,10 +1,10 @@
-const Metadata = @import("meta.zig");
+const meta = @import("zx_meta").meta;
 const std = @import("std");
 const zx = @import("zx");
 
 const config = zx.App.Config{
     .server = .{ .port = 5882, .address = "0.0.0.0" },
-    .meta = &Metadata.meta,
+    .meta = &meta,
 };
 
 pub fn main() !void {
