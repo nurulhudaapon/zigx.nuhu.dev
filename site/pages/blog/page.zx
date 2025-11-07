@@ -1,6 +1,6 @@
 pub fn Page(allocator: zx.Allocator) zx.Component {
 
-    const posts = zigx_nuhu_dev.getPosts(allocator) catch |err| {
+    const posts = zx_site_mod.getPosts(allocator) catch |err| {
         return (<p>Error fetching posts. Please try again later. {[err:any]}</p>);
     };
 
@@ -22,4 +22,4 @@ pub fn Page(allocator: zx.Allocator) zx.Component {
 }
 
 const zx = @import("zx");
-const zigx_nuhu_dev = @import("zigx_nuhu_dev");
+const zx_site_mod = @import("zx_site_mod");

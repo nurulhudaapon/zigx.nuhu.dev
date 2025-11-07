@@ -3,7 +3,7 @@ pub fn Page(allocator: zx.Allocator) zx.Component {
 
     return (
         <div>
-            <h1>Time:</h1> 
+            <h1>Timed:</h1> 
             <p>
                 {[time:d]}
             </p>

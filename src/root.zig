@@ -1,5 +1,5 @@
 const std = @import("std");
-const zigx_nuhu_dev = @import("zigx_nuhu_dev");
+const zx_site_mod = @import("zx_site_mod");
 
 const HASHNODE_GQL_URL = "https://gql.hashnode.com";
 const HASHNODE_API_KEY = "YOUR_HASHNODE_API_KEY";

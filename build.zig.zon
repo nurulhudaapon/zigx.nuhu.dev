@@ -1,12 +1,12 @@
 .{
-    .name = .zigx_nuhu_dev,
+    .name = .zx_site_portfolio,
     .version = "0.0.0",
-    .fingerprint = 0xd8465aa71e61ec71,
-    .minimum_zig_version = "0.15.1",
+    .fingerprint = 0xf74ff4be25271f5a,
+    .minimum_zig_version = "0.15.2",
     .dependencies = .{
         .zx = .{
-            .url = "git+https://github.com/nurulhudaapon/zx#126651c4364140938bcae83847da04d02d13d669",
-            .hash = "zx-0.0.1-dev.30-8okzKhaQAgABxTPeC1Q-oPmBBRLLZ4yNUukBFPdFTDWl",
+            .url = "git+https://github.com/nurulhudaapon/zx#aeeb3cd01ccfcf627299cce0ff5541d19f4c4d80",
+            .hash = "zx-0.0.1-dev.31-8okzKhaQAgAobToiEhmmKvlh1_ywvzeAjEfgvjAuJccO",
         },
     },
     .paths = .{
